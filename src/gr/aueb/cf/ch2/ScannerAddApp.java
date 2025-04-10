@@ -1,9 +1,6 @@
 package gr.aueb.cf.ch2;
 
-import java.lang.*;
-import java.sql.SQLOutput;
 import java.util.Scanner;
-
 /**
  * Διαβαζει το stdin και υπολογιζει το αποτελεσμα
  */
