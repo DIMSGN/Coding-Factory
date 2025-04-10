@@ -1,15 +1,12 @@
 package gr.aueb.cf.ch2;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
-
 /**
  * Διαβαζει απο το χρηστη ενα ποσο
  * σε ευρω και το μετατρεπει σε usd και cents.
  * Η ισοτιμια ειναι 99 usd cents = 1Euro.
  * Eκτυπωνει το αποτελεσμα.
  */
-
 public class EuroUsdConverter {
 
     public static void main(String[] args) {
