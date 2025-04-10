@@ -1,5 +1,4 @@
 package gr.aueb.cf.ch2;
-
 /**
  * Typecast demo.
  */
