@@ -3,22 +3,28 @@ package gr.aueb.cf.ch3;
 import java.util.Scanner;
 
 /**
- * Λαμβανει μια θερμοκρασια απο τον χρηστη
- * και εμφανιζει καταλληλο μηνυμα αν η θερμοκρασια
- * ειναι κατω απο το μηδεν (0).
+ * Λαμβάνει μια θερμοκρασία απο τον χρηστή
+ * και εμφανίζει κατάλληλο μήνυμα αν η θερμοκρασία
+ * είναι κάτω απο το μηδέν (0).
  */
 
 public class TempApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int temp = 0;
-        boolean isTempBellowZero = false;
+        boolean isTempBelowZero = false;
 
-        System.out.print("Παρακαλώ εισάγεται μια θερμοκρασία: ");
+        System.out.print("Παρακαλώ εισάγετε μια θερμοκρασία: ");
         temp = scanner.nextInt();
 
-        isTempBellowZero = temp < 0;
+        isTempBelowZero = temp < 0;
 
-        System.out.println("Η θερμοκρασια ειναι κατω απο το μηδεν: " + isTempBellowZero);
+        if (isTempBelowZero) {
+            System.out.println("Η θερμοκρασία είναι κάτω απο το μηδέν");
+        }else if (temp == 0) {
+            System.out.println("Η θερμοκρασία είναι μηδέν");
+        }else {
+            System.out.println("Η θερμοκρασία είναι πάνω απο το μηδέν");
+        }
     }
 }
