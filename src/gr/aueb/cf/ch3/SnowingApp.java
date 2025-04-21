@@ -3,9 +3,9 @@ package gr.aueb.cf.ch3;
 import java.util.Scanner;
 
 /**
- * O χρηστης εισαγει 1) αν βρεχει και 2) τη θερμοκρασια
- * και το προγραμμα αποφασιζει  αν χιονιζει με βαση τη λογικη συνθηκη
- * πως χιονιζει αν και βρεχει και η θερμοκρασια ειναι κατω απο το 0.
+ * O χρηστής εισάγει 1) αν βρέχει και 2) τη θερμοκρασία
+ * και το πρόγραμμα αποφασίζει αν χιονίζει με βάση τη λογική συνθήκη
+ * πως χιονίζει αν και βρέχει και η θερμοκρασία είναι κάτω απο το 0.
  */
 
 public class SnowingApp {
@@ -17,11 +17,11 @@ public class SnowingApp {
         boolean isSnowing = false;
         int temp = 0;
 
-        System.out.println("Παρακαλω εισαγετε αν βρεχει (true/false)");
+        System.out.println("Παρακαλώ εισάγετε αν βρέχει (true/false)");
 
         isRaining = scanner.nextBoolean();
 
-        System.out.println("Παρακαλω εισαγετε την θερμοκρασια");
+        System.out.println("Παρακαλώ εισάγετε την θερμοκρασία");
         temp = scanner.nextInt();
 
         isSnowing = isRaining && (temp < 0);
