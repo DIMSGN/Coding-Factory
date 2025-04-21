@@ -7,7 +7,7 @@ import java.util.Scanner;
  * με if-then-else
  */
 
-public class MenuIf {
+public class MenuApp2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
