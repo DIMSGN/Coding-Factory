@@ -1,12 +1,12 @@
 package gr.aueb.cf.ch3;
 import java.util.Scanner;
 /**
- * Λαμβανει απο το χρηστη δυο ακεραιους εστω
- * base και power και υπολογιζει με επαναληπτικο τροπο
- * (while-do) τη δυναμη base^power και εκτυπωνει το αποτελεσμα στο standar output
- * για παραδειγμα αν ο χρηστης δωσει base = 2 και power = 10 τοτε το
+ * Λαμβάνει απο το χρηστή δυο ακεραίους έστω
+ * base και power και υπολογίζει με επαναληπτικό τρόπο
+ * (while-do) τη δύναμη base^power και εκτυπώνει το αποτέλεσμα στο standard output
+ * για παράδειγμα αν ο χρηστής δώσει base = 2 και power = 10 τότε το
  * base^power = 1024
- * δηλαδη
+ * δηλαδή 2 * 2 * 2 * … * 2, 10 φορές που ισούται με 1024.
  *
  */
 public class PowerApp {
@@ -30,6 +30,6 @@ public class PowerApp {
             i++;
         }
         //Print the result
-        System.out.printf("Το %d υψωμένο στο %d ειναι : %d", inputBase, inputPower, result);
+        System.out.printf("Το %d υψωμένο στο %d είναι : %d", inputBase, inputPower, result);
     }
 }
