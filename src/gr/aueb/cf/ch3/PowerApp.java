@@ -19,11 +19,9 @@ public class PowerApp {
         Scanner scanner = new Scanner(System.in);
 
         //user input
-        System.out.print("Εισάγετε τιμή base: ");
+        System.out.print("Εισάγετε δυο ακεραίους base και power: ");
         inputBase = scanner.nextInt();
-        System.out.print("Εισάγετε τιμή power: ");
         inputPower = scanner.nextInt();
-
         //while do
         while (i <= inputPower) {
             result *= inputBase;

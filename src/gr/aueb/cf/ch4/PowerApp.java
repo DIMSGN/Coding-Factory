@@ -3,8 +3,9 @@ package gr.aueb.cf.ch4;
 import java.util.Scanner;
 
 /**
- * Υπολογιζει το base^power με επαναληπτικη
- * for. Διαβαζει τα base, power απο το χρηστη και εκτυπωνει τα αποτελεσματα
+ * Υπολογίζει το base^power με επαναληπτική for.
+ * Διαβάζει τα base, power απο το χρηστή
+ * και εκτυπώνει τα αποτελέσματα.
  */
 public class PowerApp {
     public static void main(String[] args) {
@@ -21,7 +22,7 @@ public class PowerApp {
         power = scanner.nextInt();
         // for loop
         for (int i = 1; i <= power; i++){
-            result *= base;
+            result = result * base;
         }
         //print result
         System.out.printf("%d^%d = %d\n", base, power, result);
